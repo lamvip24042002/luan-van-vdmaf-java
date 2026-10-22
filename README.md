@@ -4,7 +4,7 @@ Mã nguồn, dữ liệu kiểm thử và mô hình phục vụ đánh giá đ�
 
 Kho công khai: [lamvip24042002/luan-van-vdmaf-java](https://github.com/lamvip24042002/luan-van-vdmaf-java). Các tệp dữ liệu và checkpoint nằm trong [Release v1.0-evaluation](https://github.com/lamvip24042002/luan-van-vdmaf-java/releases/tag/v1.0-evaluation). Mã nguồn đầy đủ và kết quả nhỏ được đóng trong **source_and_results.zip**; không cần tải môi trường Python hay toàn bộ thư mục làm việc của tác giả.
 
-## 1. Bắt đầu dành cho giảng viên
+## 1. Bắt đầu
 
 1. Tải [source_and_results.zip](https://github.com/lamvip24042002/luan-van-vdmaf-java/releases/download/v1.0-evaluation/source_and_results.zip) và `SHA256SUMS.txt` từ Release. Kiểm tra SHA-256 của ZIP bằng `Get-FileHash source_and_results.zip -Algorithm SHA256` (PowerShell) hoặc `sha256sum source_and_results.zip` (Linux), so với dòng tương ứng trong `SHA256SUMS.txt`, rồi giải nén vào một thư mục mới.
 2. Mở terminal tại thư mục vừa giải nén (nơi có `README.md`, `scripts/`, `MANIFEST.json`).
