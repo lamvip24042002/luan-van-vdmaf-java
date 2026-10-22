@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "repository": "lamvip24042002/luan-van-vdmaf-java",
+  "tag": "v1.0-evaluation",
+  "assets": [
+    {
+      "name": "data_inputs.zip",
+      "size": 62426488,
+      "sha256": "6432f905e7c036076cdd4fb7b635272fc712a2ab6c687e5cf63621a4edf01511",
+      "profiles": [
+        "test",
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/inputs/all/seq_test.pt",
+          "size": 5377358,
+          "sha256": "40f89d50f18df226130b10a8330d302a89433f5acfe639a9de65f8f3f2aebfd8"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/all/seq_train.pt",
+          "size": 26659468,
+          "sha256": "21973b58c84bc8ed2892e0f964e62359b876196ed6f2dc1362687af3281f7307"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/all/seq_validation.pt",
+          "size": 3588984,
+          "sha256": "5bcf9078e1ae966138fc1a27055b9017dc38e9d918419e07529221abf375ac8e"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/all/test.pt",
+          "size": 32894833,
+          "sha256": "40002467c47baa6a85ba5c897d78cbcc4551e6fa131c2f2ecf1aa32a2a1e374c"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/all/train.pt",
+          "size": 161462882,
+          "sha256": "f6cb78a01209c790929da202ff05c468eb623d221414b7ee4693c56854337e48"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/all/validation.pt",
+          "size": 21892335,
+          "sha256": "849f3883f380e5f55fb8bcd3cb8c907b7302df0c5e4772705ef05957ec446be5"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/train/seq_test.pt",
+          "size": 5377358,
+          "sha256": "c9b0dcbad572391ecd6bf85e7a35b40bdb5d0c84d5de3c7bce78186d98536438"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/train/seq_train.pt",
+          "size": 26659468,
+          "sha256": "98bdc9ea23de7c7d5039c4ccf3aad5c0b9e311c05d744e72e477e0888260084e"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/train/seq_validation.pt",
+          "size": 3588984,
+          "sha256": "95aa9b0c4585bf7c9f9ffa64af8f5e347969a38a0c697d0923772a1db7193931"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/train/test.pt",
+          "size": 32894833,
+          "sha256": "7e56e820cbea2884a5c3924fb307ba7caac7b5ef94fa175870c2e8f60587db66"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/train/train.pt",
+          "size": 161462882,
+          "sha256": "b8436728b12a8398714812649b383d59b6dca29920b2307c9e03bf77e1d78753"
+        },
+        {
+          "path": "output/seminar_20261011/inputs/train/validation.pt",
+          "size": 21892335,
+          "sha256": "f62b377a5e4297f419f15444cfaa218d1b5df89c3be90d7e602f16ec7313e409"
+        }
+      ]
+    },
+    {
+      "name": "models_all_full.zip",
+      "size": 95845722,
+      "sha256": "e031cab8a36e22a50799f4747f86af62287ac897825e891b5e26583edae9f4b0",
+      "profiles": [
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/all_full_s42/model.pt",
+          "size": 20699019,
+          "sha256": "7e25c88e7ab51570a5f18839629055ad6e2c7f11c5947455677882a2aff67a4d"
+        },
+        {
+          "path": "output/seminar_20261011/runs/all_full_s43/model.pt",
+          "size": 20699019,
+          "sha256": "abe928dc5569cfb856b61abece5856589151bd64a9d5f73e32e6b022b26aa524"
+        },
+        {
+          "path": "output/seminar_20261011/runs/all_full_s44/model.pt",
+          "size": 20699019,
+          "sha256": "5bddd6736faabfc8fa9765ee27e853b40235b28c70aca422fe8dbe833acb6b12"
+        },
+        {
+          "path": "output/seminar_20261011/runs/all_full_s45/model.pt",
+          "size": 20699019,
+          "sha256": "cab12bd12ae6031c792d1bf35aa5e7973434779133cdec82e199b8427e4007a1"
+        },
+        {
+          "path": "output/seminar_20261011/runs/all_full_s46/model.pt",
+          "size": 20699019,
+          "sha256": "b3617f01a30fd478d42688e3df6e1c612c13be3ffe1387300a0d3fa6426b68d1"
+        }
+      ]
+    },
+    {
+      "name": "models_train_cdg_ddg.zip",
+      "size": 76390380,
+      "sha256": "a1c94f68d35269a24547a50602dcbf7ad757065be549826c0fe5f4d0c779f4ab",
+      "profiles": [
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/train_cdg_ddg_s42/model.pt",
+          "size": 16496011,
+          "sha256": "405e7ac9da32f4056045769608ceae80189284ba4537c0ddac13ebb5d6d163d2"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_cdg_ddg_s43/model.pt",
+          "size": 16496011,
+          "sha256": "ab24cf894c8ace3bb32a81d65afa6bfade21a391589f7b1a1fe961e4e47c3137"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_cdg_ddg_s44/model.pt",
+          "size": 16496011,
+          "sha256": "f673eb1109009984917e47e3fad9f29144b81a9e715cfcac557a8a94eff99ca2"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_cdg_ddg_s45/model.pt",
+          "size": 16496011,
+          "sha256": "7933a119ce0f37375e3fdaa8cf2c769662380bf8545592a5c9466bb15b7411cf"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_cdg_ddg_s46/model.pt",
+          "size": 16496011,
+          "sha256": "5a1f2a1214a44283585560964f08ef074bad5f639be512a3c1363eb1ffe6ae9b"
+        }
+      ]
+    },
+    {
+      "name": "models_train_concat.zip",
+      "size": 76075211,
+      "sha256": "2d4033a7b22fdf105aeb9b2ae8e21752c5ee98b5da770a5665ab9a1369eebcd3",
+      "profiles": [
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/train_concat_s42/model.pt",
+          "size": 16427351,
+          "sha256": "1c5923c21b94744a8cecc601f38b2c78bcd35b73fd05e6e046a005d21d2fbcad"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_concat_s43/model.pt",
+          "size": 16427351,
+          "sha256": "491e2e9d589d22d9d2a5f809ca06826945fd90fdd0bf372d02ad2a6f1c6a1221"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_concat_s44/model.pt",
+          "size": 16427351,
+          "sha256": "675bd6715e51edb7ed543204ce71e3ebf71263d8a7f8860252c11ed469a282b8"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_concat_s45/model.pt",
+          "size": 16427351,
+          "sha256": "f201aa1e43914027812fb97f632a64fd7ee00aeced84977eaa6f9a869d18add0"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_concat_s46/model.pt",
+          "size": 16427351,
+          "sha256": "11d4269169a2ea105609eb954061bf56a9f80ee623677a02e9a55e6ef08a22b8"
+        }
+      ]
+    },
+    {
+      "name": "models_train_full.zip",
+      "size": 77605628,
+      "sha256": "d698d903f6eb830c5987bb02f8c9a9711984b5ce9b3bd1aaaaed8792af06b83b",
+      "profiles": [
+        "test",
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/train_full_s42/model.pt",
+          "size": 16758155,
+          "sha256": "daaf48ce43135e188885728b0fae8ede2859d646a1531997ab1db3ed80e2a924"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_full_s43/model.pt",
+          "size": 16758155,
+          "sha256": "9fc3f6486ec93b8f959bb6037900a70aefe9d5f985da8e9f0442de5aacc26cdd"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_full_s44/model.pt",
+          "size": 16758155,
+          "sha256": "0d0199f8c69aac906b1638d49c7e76b9a4164862c01889bfc912b8e47eef1845"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_full_s45/model.pt",
+          "size": 16758155,
+          "sha256": "4add3230847ecda86e2f02e147dfad595ab1bbcb13dd6ab8e1f02a74cd5c6675"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_full_s46/model.pt",
+          "size": 16758155,
+          "sha256": "a455abc57da80907968a9ec4231006396901e182b5d02d04be48d00989908592"
+        }
+      ]
+    },
+    {
+      "name": "models_train_gnn.zip",
+      "size": 70247798,
+      "sha256": "b99a2c8120247e05065bfeb070c2b85491bdc4f26d083bc0b419bfce3cbd0df2",
+      "profiles": [
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/train_gnn_s42/model.pt",
+          "size": 15170805,
+          "sha256": "e833e64fdb52a2462f97de7ffe0f5c43af189e74970a21a9ebf555e33dc9e55d"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_gnn_s43/model.pt",
+          "size": 15170805,
+          "sha256": "fe2e149ec29a2f19423cd2395e3252345eb217e8c5211968b09243242000d5ec"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_gnn_s44/model.pt",
+          "size": 15170805,
+          "sha256": "f4bf082298953a4137a844b8df6c61f62816db14e3e7171f2dd7f70b03e1d353"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_gnn_s45/model.pt",
+          "size": 15170805,
+          "sha256": "bd2fe3c6893632bc7c26da4c0220aaf95456be7f6acac3c732ce1ce61b1ff9e3"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_gnn_s46/model.pt",
+          "size": 15170805,
+          "sha256": "2135693bb5426f5d65bd701ec717e201208ae0f35b580cff0c40ee3f2cbbb71a"
+        }
+      ]
+    },
+    {
+      "name": "models_train_no_cdg.zip",
+      "size": 77002487,
+      "sha256": "fcc33374907480cf8ed24bf39c2ccf9391a55eb9fe90d0b8b63434b0f9ce82c9",
+      "profiles": [
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/train_no_cdg_s42/model.pt",
+          "size": 16627083,
+          "sha256": "fac68e25952691b6700f3cb1655f4578168e28d5aa1d04f8408bec5b0d0bbf50"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_no_cdg_s43/model.pt",
+          "size": 16627083,
+          "sha256": "8b7f90e5af2d0c16974953a35f455e3557fa85a8214a245316a97948723f8174"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_no_cdg_s44/model.pt",
+          "size": 16627083,
+          "sha256": "c5cca9e0b0a59f2b9a0befa1a79a494c5e83710f2a9f54c73cb5c4b52e4cf082"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_no_cdg_s45/model.pt",
+          "size": 16627083,
+          "sha256": "1f6fd0e4c7d15b719af80a9a8a219a549b7823155cff49795724127a350983a9"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_no_cdg_s46/model.pt",
+          "size": 16627083,
+          "sha256": "c850d762ba6528af652656904cb1c290af827694cc2fe2f7dc2b776919a281b2"
+        }
+      ]
+    },
+    {
+      "name": "models_train_no_ddg.zip",
+      "size": 76999973,
+      "sha256": "7acda9ee8dced2c1af4405d8ab24c1fd112c5fb68d239433ca972a8bc733f463",
+      "profiles": [
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/train_no_ddg_s42/model.pt",
+          "size": 16627083,
+          "sha256": "7d7f5a29e86f2683a7bbd5a1db3b80ffdbd988a417724fddaf468e010192349d"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_no_ddg_s43/model.pt",
+          "size": 16627083,
+          "sha256": "4dd75fe631b7a56770036a98a3170331ee63e67e8ecdae9833d8ad819a5386ab"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_no_ddg_s44/model.pt",
+          "size": 16627083,
+          "sha256": "bc84fbcb9edc79e5e3da2cdd769fc53ed6a12f8f6cafe11a001f304f79387ff6"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_no_ddg_s45/model.pt",
+          "size": 16627083,
+          "sha256": "c337463070dc3e6cc29a5140c34608eef9aa89d933d7c6dcb3d8eb8f4e518143"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_no_ddg_s46/model.pt",
+          "size": 16627083,
+          "sha256": "c54c6aaf7840f8964461f268d06add9ce5ee95b3e36da9ba5d8b70f3245a2914"
+        }
+      ]
+    },
+    {
+      "name": "models_train_seq.zip",
+      "size": 72727154,
+      "sha256": "ef1b54c4efe9be839dccc8c0a200594333ce70d02d0aea54044f284a4c1a1b31",
+      "profiles": [
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/train_seq_s42/model.pt",
+          "size": 15703849,
+          "sha256": "1fbb937c6ab1054102730a6516c6d5077200e1a30f9558697d4477fa2296bc5c"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_seq_s43/model.pt",
+          "size": 15703849,
+          "sha256": "e3232b1dbdeebdfe2d01d503535eb491512fa8a6c2874bfb1e7ccd734508cb55"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_seq_s44/model.pt",
+          "size": 15703849,
+          "sha256": "da765d0dc0720c8258287a0513089798d3b47921a917871dcfa7b8520431b1e9"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_seq_s45/model.pt",
+          "size": 15703849,
+          "sha256": "5d02e252dc56c0546e3216a144cb7d0916b5a964262df0102c1eb30cf5df8305"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_seq_s46/model.pt",
+          "size": 15703849,
+          "sha256": "ae20f84ffc6ae33852a1020da34acf320dd912979ee7c481a2d94d196fb42549"
+        }
+      ]
+    },
+    {
+      "name": "models_train_untyped.zip",
+      "size": 75787146,
+      "sha256": "1a031da9bf607fc577d20b21f1b20b1f4f66b52c2843898f50bb6412818931e3",
+      "profiles": [
+        "full"
+      ],
+      "members": [
+        {
+          "path": "output/seminar_20261011/runs/train_untyped_s42/model.pt",
+          "size": 16364939,
+          "sha256": "924f9f3c120fdd5672da9761f1d610e1fceff5ea68f27429700fedfe6b838d84"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_untyped_s43/model.pt",
+          "size": 16364939,
+          "sha256": "049241a7334d122f297be31e3f15629b87e3675990844ad6dff95f29fcdad185"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_untyped_s44/model.pt",
+          "size": 16364939,
+          "sha256": "918daefb4b62c15a8c32d14a20e2dc6316338162d39b28b8a7dda464b70c5bff"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_untyped_s45/model.pt",
+          "size": 16364939,
+          "sha256": "724d4fc30cb67e2f597dfe422f8a0f146cd12690e8b469a5aac3d13e06dc51fd"
+        },
+        {
+          "path": "output/seminar_20261011/runs/train_untyped_s46/model.pt",
+          "size": 16364939,
+          "sha256": "f0066c6b6a1dacf70bccb6f0fc2aafd9ce8b00d170247c49214b72ac2224a230"
+        }
+      ]
+    },
+    {
+      "name": "raw_sources.zip",
+      "size": 67581884,
+      "sha256": "135260c44c3497a43f9313bde29d10f794321ae9fd1ca4d1ab4f200f7faa997e",
+      "profiles": [
+        "raw",
+        "full"
+      ],
+      "members": [
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_00.txt",
+          "size": 20337593,
+          "sha256": "9ff79d8c2e4c0dfb112cacbc2668a0e874ef898fa7f06a24b5bb4efd98ac1a40"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_01.txt",
+          "size": 19462433,
+          "sha256": "b16a1cce3f604f49c5f0a74ffe3cb108f451be836f4f1644f49d645f6e7883c3"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_02.txt",
+          "size": 19521834,
+          "sha256": "1b3814271373e2d8df82043d25d52bce887778118a487e199e1a9c579999bfd0"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_03.txt",
+          "size": 19587454,
+          "sha256": "91dab1c3e964d1749522934ca050e1e441d8c5b3febeac7d271dd3bfd624db10"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_04.txt",
+          "size": 19771782,
+          "sha256": "611ec21bc097cb95c2c51acd581ccef2b2b1852f1abd578920b7a1d5b0ef62b9"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_05.txt",
+          "size": 20156554,
+          "sha256": "fe7a8d625b47b9f453d4d39ca3886c6eac7e3760de6be0333b6c747787e173da"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_06.txt",
+          "size": 20143238,
+          "sha256": "fad552c97e65f77fe9a3db13ab258dcb616ab14119bd171fbe8299d850fd63d6"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_07.txt",
+          "size": 20298278,
+          "sha256": "21342644de7227b9235673490496127a4856966a69c4d68829e0debefc26261d"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_08.txt",
+          "size": 19573039,
+          "sha256": "bc15c6131d5babd8fe53bea6157436e79a2bac3125c0a2305144a93aea97f2e5"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_09.txt",
+          "size": 19190905,
+          "sha256": "a6226808e3ce7409276f1155aad86b756e1a6959f2f296a735825ff7b839afea"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_10.txt",
+          "size": 18660901,
+          "sha256": "d422627c9131540e35e9ca5fe5950391af3a930fbb1e99a719a9ee4b67b057e5"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_11.txt",
+          "size": 21050125,
+          "sha256": "a53b63eabd53435c9a6f3ba464bf113fb5d48e96a7de63ce921802ab764b3cfe"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_12.txt",
+          "size": 18948700,
+          "sha256": "e3ea0610979e35ce4a46dc45e3e5347d71323ebdc0a2a3343e86bedc3a461acb"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_13.txt",
+          "size": 19543285,
+          "sha256": "9e009efadeb5806000d32feaba1e502f380dce98c4b999e50feeaef87b860f0d"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_14.txt",
+          "size": 19209946,
+          "sha256": "01af26906f515c831e8b146d2421916f5e04efaf6f09fcf4ff9726ad9550b707"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_15.txt",
+          "size": 20468434,
+          "sha256": "e4094e4a74ada8369cdaa6ced96fbc928b31e40072dcbff2ce038f792b5a9cf7"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_16.txt",
+          "size": 19448779,
+          "sha256": "5402b46f9d11fee5f9bffffd057119c04dafdf2b757fcd9ff6af75fdc3590f34"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_17.txt",
+          "size": 20378644,
+          "sha256": "de5ea37bda0e0e5a25e4a453e6b80383084e6bc07b830fc62822c05f52447752"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_18.txt",
+          "size": 20034470,
+          "sha256": "be2b1d3c5e6e1b00e269298b74a39efb6de244895fa1b80f52cf50207f36eabf"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_19.txt",
+          "size": 21048991,
+          "sha256": "282f1561a078f1e0da39489d7e9747a55493ec6fc3359c58fc1b7b4668a96bba"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/graph/dumps_v2/graph_batch_20.txt",
+          "size": 19113056,
+          "sha256": "d90bd2c6c95dc784ee70c0ca9693e8cd217e6d37d9a2052efb33e902dbfdc7f6"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/megavul/test-00000-of-00001.parquet",
+          "size": 2571062,
+          "sha256": "ad84e6b2cab3dfccbba966ee188a8ad23c320e5ebd5ba3f22fefdd53d0172c0e"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/megavul/train-00000-of-00001.parquet",
+          "size": 12060617,
+          "sha256": "3ca0dc6da75ea7569ccdaef8b37504a1b6175389f648c083afe562bba4d03194"
+        },
+        {
+          "path": "ts/VDMAF_main/newidea/Java/megavul/validation-00000-of-00001.parquet",
+          "size": 1697324,
+          "sha256": "4a7651e4f5643280406f3539e0e0b5162d05bba1d8c640fe8b3676ddf2fdffeb"
+        }
+      ]
+    }
+  ],
+  "note": "Archive member paths are relative to package root. The core source ZIP checksum is in SHA256SUMS.txt."
+}

@@ -1,0 +1,101 @@
+{
+  "status": "different",
+  "created_utc": "2026-10-22T09:07:02.078591+00:00",
+  "evaluation_script_sha256": "a3f5f0f7792b263946bcee62cb55db7fcffff36b39b400cab764631362a5d0c4",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.5.1+cu121",
+    "torch_geometric": "2.6.1",
+    "numpy": "1.26.4",
+    "sklearn": "1.5.2",
+    "device": "cpu",
+    "torch_threads": 4
+  },
+  "tolerances": {
+    "metric_atol": 0.0001,
+    "probability_atol": 1e-05,
+    "probability_rtol": 0.0001
+  },
+  "verified_inputs": {
+    "output/seminar_20261011/protocol.json": "98d193b71ab5661409bc4519b7fa16dd82de8b8c3de550583071ae499bb475fb",
+    "scripts/train_seminar_20261011.py": "14697de92091eeee0833b41bb9b2f2d67d4de3d7280f3a0de3beec1a1cc209e9",
+    "output/seminar_20261011/runs/train_full_s42/run_spec.json": "cb28a85107a7f033a1c9e23548d096789cb793596452f1d6709fdf113033176b",
+    "output/seminar_20261011/runs/train_full_s42/metrics.json": "8649a5efd43f117e58d5291e0fb7369e953fc8931e0e9ab83f9b0be4dec905ce",
+    "output/seminar_20261011/runs/train_full_s42/best_checkpoint.json": "255f382b41b053320d67fe753968df8a376a37e6bf30f71aa67a1e226d01d8c8",
+    "output/seminar_20261011/inputs/train/manifest.json": "407727e502e49defbec0876db649523b490a10cd648e0b595b0675f02848a8e3",
+    "output/seminar_20261011/inputs/train/test.pt": "7e56e820cbea2884a5c3924fb307ba7caac7b5ef94fa175870c2e8f60587db66",
+    "output/seminar_20261011/inputs/train/seq_test.pt": "c9b0dcbad572391ecd6bf85e7a35b40bdb5d0c84d5de3c7bce78186d98536438",
+    "output/seminar_20261011/inputs/train/vocab_joint.json": "a3622718445d573de205f2a40441b2ecc931987fdd20738488e5ef038e43e113",
+    "output/seminar_20261011/runs/train_full_s42/model.pt": "daaf48ce43135e188885728b0fae8ede2859d646a1531997ab1db3ed80e2a924",
+    "output/seminar_20261011/runs/train_full_s42/test_predictions.csv": "7b90af95b8a49508ed2df4e1d9cc036840ceecd4d12fcc6245928ccb3cef7372"
+  },
+  "runs": [
+    {
+      "run": "train_full_s42",
+      "status": "different",
+      "device": "cpu",
+      "batch": 64,
+      "inference_seconds": 12.166961299999912,
+      "test": {
+        "ap": 0.49971464586234005,
+        "pr_auc": 0.49971464586234005,
+        "roc_auc": 0.8691734874809922,
+        "n": 6293,
+        "positive": 369,
+        "f1@0.5": 0.4658385093167702,
+        "p@0.5": 0.3768844221105528,
+        "r@0.5": 0.6097560975609756,
+        "mcc@0.5": 0.43853540945023617,
+        "f1@val_t": 0.506426735218509,
+        "p@val_t": 0.48166259168704156,
+        "r@val_t": 0.5338753387533876,
+        "mcc@val_t": 0.47471113428937356,
+        "val_t": 0.95
+      },
+      "archived_test": {
+        "ap": 0.49972405480476584,
+        "pr_auc": 0.49972405480476584,
+        "roc_auc": 0.8691734874809923,
+        "n": 6293,
+        "positive": 369,
+        "f1@0.5": 0.4658385093167702,
+        "p@0.5": 0.3768844221105528,
+        "r@0.5": 0.6097560975609756,
+        "mcc@0.5": 0.43853540945023617,
+        "f1@val_t": 0.506426735218509,
+        "p@val_t": 0.48166259168704156,
+        "r@val_t": 0.5338753387533876,
+        "mcc@val_t": 0.47471113428937356,
+        "val_t": 0.95
+      },
+      "absolute_metric_differences": {
+        "ap": 9.408942425792599e-06,
+        "pr_auc": 9.408942425792599e-06,
+        "roc_auc": 1.1102230246251565e-16,
+        "n": 0.0,
+        "positive": 0.0,
+        "f1@0.5": 0.0,
+        "p@0.5": 0.0,
+        "r@0.5": 0.0,
+        "mcc@0.5": 0.0,
+        "f1@val_t": 0.0,
+        "p@val_t": 0.0,
+        "r@val_t": 0.0,
+        "mcc@val_t": 0.0,
+        "val_t": 0.0
+      },
+      "metrics_within_tolerance": true,
+      "probabilities_within_tolerance": false,
+      "max_absolute_probability_difference": 0.0008165836334228516,
+      "threshold_source": "archived validation-selected best_checkpoint.json; no test tuning",
+      "checkpoint_sha256": "daaf48ce43135e188885728b0fae8ede2859d646a1531997ab1db3ed80e2a924",
+      "test_inventory": {
+        "count": 6293,
+        "positive": 369,
+        "unused_sequence_count": 0,
+        "ordered_fid_label_sha256": "1e788b9133f81c59c908973ebbe4f881908603555e638613882287cd0f80b76b"
+      }
+    }
+  ],
+  "note": "CPU/CUDA operations may differ numerically. Actual deltas are reported; archived results are unchanged."
+}

@@ -1,0 +1,9 @@
+# Install torch==2.5.1 separately using the CPU or cu121 index in README.md.
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==18.1.0
+scipy==1.14.1
+scikit-learn==1.5.2
+torch-geometric==2.6.1
+matplotlib==3.9.2
+psutil==6.1.0
